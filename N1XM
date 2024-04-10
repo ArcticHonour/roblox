@@ -1,0 +1,401 @@
+#made by vcrvix , momentousness , and progamer_188_69941
+print("Welcome to N1XM for roblox, a powerful program designed to password guess roblox accounts!")
+print("current version 1.2 ")
+print("credits:, momentousness , vcrvix , progamer_188_69941 ")
+print("==================================================")
+print("THIS METHOD IS RECOMENDED FOR 2008-2015 ACCOUNTS")
+input("NOTE: THIS IS NOT A BRUTER! YOU MIGHT NOT ALWAYS GET CORRECT PASSWORD!")
+print("==================================================")
+print("method 1 : (3) worded account")
+print("method 2 : (4) worded account ")
+print("method 3 : (5) worded account")
+print("method 4 : only letter username(no numbers!)")
+print("method 5 : normal method")
+print("method 6 : universal method (MOST RECOMMENDED!)")
+print("===================================================")
+x = input("please select your method(!e.g method 1 is 1)")
+
+print("method" , x , "has been sucessfully chosen!")
+
+print("===================================================")
+
+y = input(" please input victim username:")
+print("===================================================")
+print("if there aernt any common words just press enter")
+print("===================================================")
+z = input("input any common word within username")
+m = input("input any other common word within username")
+# 4 words method
+# Example: 76yu 
+# yu76 12yu12 76yu76 123456 1234
+# 7676 6767
+
+# 3 words method 
+# Example: 123
+# 1234 12345 4321 54321
+
+# Normal pg method
+# Example: haikevin12345
+# kevin12345 kevin1234 kevin123 kevin12
+# hai12345 hai1234 hai123 hai12
+
+# No number name
+# Example: mrjess
+# jess123 jess12 jess1 mr123 mr12 mr1
+# 12jess12 mrjess123
+
+# 5 letter method
+# Example: 12kevi
+# kevin kevin123 kevin12 12kevi12 12kevin
+print("=====================================================")
+if x == "1" :
+    print( y, "1")
+    print( y, "12")
+    print("1(inverse of username)")
+    print("12(inverse of username)")
+    print("these are the passwords we managed to come up with!")
+    print("=====================================================")
+
+    
+elif x == "2" :
+    print("inverse of" , y)
+    print( " 12 (inverse of) ", y ,"12")
+    print("1(inverse of username)")
+    print("12(inverse of username)")
+    print("these are the passwords we managed to come up with!")
+    print("=====================================================")
+
+    
+elif x == "3" :
+    print(z ,"12")
+    print(m ,"12")
+    print(m ,"123")
+    print(z ,"123")
+    print( " 12 ", y ,"12")
+    print(z)
+    print(m)
+    print(y,"12")
+    print("these are the passwords we managed to come up with!")
+    print("=====================================================")
+
+# No number name
+# Example: mrjess
+# jess123 jess12 jess1 mr123 mr12 mr1
+# 12jess12 mrjess123
+elif x == "4" :
+    print( y)
+    print(y , "1")
+    print(y ,"12")
+    print(y ,"123")
+    print(m , "1")
+    print(m ,"12")
+    print(m ,"123")
+    print(z , "1")
+    print(z ,"12")
+    print(z ,"123")
+    print("12" ,y ,"12")
+    print("these are the passwords we managed to come up with!")
+    print("=====================================================")
+
+    
+elif x == "5" :
+    print(y ,"123")
+    print(y , "12")
+    print(y , "1")
+    print("123",y)
+    print("12",y)
+    print("1",y)
+    
+elif x == "6": 
+    print("123", y,"123")
+    print("12", y,"12")
+    print("1", y , "1")
+    print("321",y)
+    print("21",y , "21")
+    print("123" , y , "321")
+    print("12" , y , "21")
+    print("321" , y , "123")
+    print("21" , y , "12")
+    print(z ,"12" , z)
+    print(m ,"12" , m)
+    print(m ,"123", m)
+    print(z ,"123", z)
+    print(m ,"1", m)
+    print(z ,"1" , m)
+    print(m , m)
+    print(z , z)
+    print(z , m)
+    print(m , z)
+    print(y , m)
+    print(y , z)
+    print(z , y)
+    print(m , y)
+    print(" 12 ", y ,"12")
+    print(z)
+    print(m)
+    print(y , "12")
+    print("inverse of" , y)
+    print( " 12 (inverse of) ", y ,"12")
+    print("1(inverse of " , y)
+    print("12(inverse of" , y)
+    print("12345678")
+    print("1234567")
+    print("123456")
+    print("12345")
+    print("1234")
+    print("123")
+    print("12")
+    print("87654321")
+    print("7654321") 
+    print("654321") 
+    print("54321") 
+    print("4321") 
+    print("321") 
+    print("21") 
+    print("1")   
+    print(y ,"12345678")
+    print(y ,"1234567")
+    print(y ,"123456")
+    print(y ,"12345")
+    print(y ,"1234")
+    print(y ,"123")
+    print(y ,"12")
+    print(y ,"87654321")
+    print(y ,"7654321") 
+    print(y ,"654321") 
+    print(y ,"54321") 
+    print(y ,"4321") 
+    print(y ,"321") 
+    print(y ,"21") 
+    print(y ,"1")   
+    print(m ,"12345678")
+    print(m ,"1234567")
+    print(m ,"123456")
+    print(m ,"12345")
+    print(m ,"1234")
+    print(m ,"123")
+    print(m ,"12")
+    print(m ,"87654321")
+    print(m ,"7654321") 
+    print(m ,"654321") 
+    print(m ,"54321") 
+    print(m ,"4321") 
+    print(m ,"321") 
+    print(m ,"21") 
+    print(m ,"1") 
+    print(z ,"12345678")
+    print(z ,"1234567")
+    print(z ,"123456")
+    print(z ,"12345")
+    print(z ,"1234")
+    print(z ,"123")
+    print(z ,"12")
+    print(z ,"87654321")
+    print(z ,"7654321") 
+    print(z ,"654321") 
+    print(z ,"54321") 
+    print(z ,"4321") 
+    print(z ,"321") 
+    print(z ,"21") 
+    print(z ,"1")      
+else:
+    print("ERROR! PLEASE RERUN THE PROGRAM  AND CHOSE A METHOD FROM THE LIST1")
+print("remember to remove spaces inbetween the passwords!")
+print("===========================================================")
+w = input("PASSWORDS SUCCESFULLY GENERATED , RERUN THE CODE BY TYPING NEW PG.")
+
+while True:
+   
+    print("                                                   ")
+    print("                                                   ")
+    print("                                                   ")
+    print("NEW PG CREATED")
+    print("==================================================")
+    print("method 1 : (3) worded account")
+    print("method 2 : (4) worded account ")
+    print("method 3 : (5) worded account")
+    print("method 4 : only letter username(no numbers!)")
+    print("method 5 : normal method")
+    print("method 6 : universal method (MOST RECOMMENDED!)")
+    print("===================================================")
+    x = input("please select your method(!e.g method 1 is 1)")
+    print("method" , x , "has been sucessfully chosen!")
+    print("===================================================")
+    y = input(" please input victim username:")
+    print("===================================================")
+    print("if there aernt any common words just press enter")
+    print("===================================================")
+    z = input("input any common word within username")
+    m = input("input any other common word within username")
+    # 4 words method
+# Example: 76yu 
+# yu76 12yu12 76yu76 123456 1234
+# 7676 6767
+
+# 3 words method 
+# Example: 123
+# 1234 12345 4321 54321
+
+# Normal pg method
+# Example: haikevin12345
+# kevin12345 kevin1234 kevin123 kevin12
+# hai12345 hai1234 hai123 hai12
+
+# No number name
+# Example: mrjess
+# jess123 jess12 jess1 mr123 mr12 mr1
+# 12jess12 mrjess123
+
+# 5 letter method
+# Example: 12kevi
+# kevin kevin123 kevin12 12kevi12 12kevin
+    
+    
+    print("=====================================================")
+    if x == "1" :
+        print( y, "1")
+        print( y, "12")
+        print("1(inverse of username)")
+        print("12(inverse of username)")
+        print("these are the passwords we managed to come up with!")
+        print("=====================================================")
+    elif x == "2" :
+        print("inverse of" , y)
+        print( " 12 (inverse of) ", y ,"12")
+        print("1(inverse of username)")
+        print("12(inverse of username)")
+        print("these are the passwords we managed to come up with!")
+        print("=====================================================")
+    
+    elif x == "3" :
+        print(z ,"12")
+        print(m ,"12")
+        print(m ,"123")
+        print(z ,"123")
+        print( " 12 ", y ,"12")
+        print(z)
+        print(m)
+        print(y,"12")
+        print("these are the passwords we managed to come up with!")
+        print("=====================================================")
+        
+    elif x == "4" :
+        print( y)
+        print(y , "1")
+        print(y ,"12")
+        print(y ,"123")
+        print(m , "1")
+        print(m ,"12")
+        print(m ,"123")
+        print(z , "1")
+        print(z ,"12")
+        print(z ,"123")
+        print("12" ,y ,"12")
+        print("these are the passwords we managed to come up with!")
+        print("=====================================================")
+        
+    elif x == "5" :
+        print(y ,"123")
+        print(y , "12")
+        print(y , "1")
+        print("123",y)
+        print("12",y)
+        print("1",y)
+    
+    elif x == "6": 
+        print("123", y,"123")
+        print("12", y,"12")
+        print("1", y , "1")
+        print("321",y)
+        print("21",y , "21")
+        print("123" , y , "321")
+        print("12" , y , "21")
+        print("321" , y , "123")
+        print("21" , y , "12")
+        print(z ,"12" , z)
+        print(m ,"12" , m)
+        print(m ,"123", m)
+        print(z ,"123", z)
+        print(m ,"1", m)
+        print(z ,"1" , m)
+        print(m , m)
+        print(z , z)
+        print(z , m)
+        print(m , z)
+        print(y , m)
+        print(y , z)
+        print(z , y)
+        print(m , y)
+        print(" 12 ", y ,"12")
+        print(z)
+        print(m)
+        print(y , "12")
+        print("inverse of" , y)
+        print( " 12 (inverse of) ", y ,"12")
+        print("1(inverse of " , y)
+        print("12(inverse of" , y)
+        print("12345678")
+        print("1234567")
+        print("123456")
+        print("12345")
+        print("1234")
+        print("123")
+        print("12")
+        print("87654321")
+        print("7654321") 
+        print("654321") 
+        print("54321") 
+        print("4321") 
+        print("321") 
+        print("21") 
+        print("1")   
+        print(y ,"12345678")
+        print(y ,"1234567")
+        print(y ,"123456")
+        print(y ,"12345")
+        print(y ,"1234")
+        print(y ,"123")
+        print(y ,"12")
+        print(y ,"87654321")
+        print(y ,"7654321") 
+        print(y ,"654321") 
+        print(y ,"54321") 
+        print(y ,"4321") 
+        print(y ,"321") 
+        print(y ,"21") 
+        print(y ,"1")   
+        print(m ,"12345678")
+        print(m ,"1234567")
+        print(m ,"123456")
+        print(m ,"12345")
+        print(m ,"1234")
+        print(m ,"123")
+        print(m ,"12")
+        print(m ,"87654321")
+        print(m ,"7654321") 
+        print(m ,"654321") 
+        print(m ,"54321") 
+        print(m ,"4321") 
+        print(m ,"321") 
+        print(m ,"21") 
+        print(m ,"1") 
+        print(z ,"12345678")
+        print(z ,"1234567")
+        print(z ,"123456")
+        print(z ,"12345")
+        print(z ,"1234")
+        print(z ,"123")
+        print(z ,"12")
+        print(z ,"87654321")
+        print(z ,"7654321") 
+        print(z ,"654321") 
+        print(z ,"54321") 
+        print(z ,"4321") 
+        print(z ,"321") 
+        print(z ,"21") 
+        print(z ,"1")
+    else:
+        print("ERROR! PLEASE RERUN THE PROGRAM  AND CHOSE A METHOD FROM THE LIST1")
+    print("remember to remove spaces inbetween the passwords!")
+    print("===========================================================")
+("PASSWORDS SUCCESFULLY GENERATED , RERUN THE CODE IF CHOSEN METHOD DOESNT WORK FOR YOU.")
